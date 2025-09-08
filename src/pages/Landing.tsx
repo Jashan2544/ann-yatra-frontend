@@ -181,7 +181,7 @@ const Landing = () => {
                   </Button>
                 </Link>
                 <Link to="/trace">
-                  <Button size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10">
+                  <Button size="lg" className="bg-white text-primary hover:bg-white/90">
                     View Demo
                   </Button>
                 </Link>

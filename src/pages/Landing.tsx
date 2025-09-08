@@ -64,7 +64,7 @@ const Landing = () => {
             Blockchain-Powered Supply Chain
           </Badge>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Ann Yatra
+            अन्नYatra
             <span className="block text-3xl md:text-4xl font-normal mt-2 text-white/90">
               From Farm to Fork, Verified
             </span>
@@ -95,7 +95,7 @@ const Landing = () => {
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-foreground mb-4">
-              Why Choose Ann Yatra?
+              Why Choose अन्नYatra?
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Our blockchain-powered platform ensures every step of your food's journey is recorded, verified, and transparent.

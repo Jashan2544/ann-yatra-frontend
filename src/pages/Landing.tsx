@@ -66,7 +66,7 @@ const Landing = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             अन्नYatra
             <span className="block text-3xl md:text-4xl font-normal mt-2 text-white/90">
-              From Farm to Fork, Verified
+              From Farm to Fork, Verified hahahaha
             </span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl mx-auto">

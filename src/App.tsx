@@ -8,6 +8,7 @@ import Landing from "./pages/Landing";
 import FarmerDashboard from "./pages/FarmerDashboard";
 import DistributorDashboard from "./pages/DistributorDashboard";
 import TraceabilityPage from "./pages/TraceabilityPage";
+import AuthPage from "./pages/AuthPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/farmer" element={<FarmerDashboard />} />
           <Route path="/distributor" element={<DistributorDashboard />} />
           <Route path="/trace" element={<TraceabilityPage />} />
+          <Route path="/auth" element={<AuthPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

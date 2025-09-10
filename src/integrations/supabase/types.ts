@@ -14,6 +14,57 @@ export type Database = {
   }
   public: {
     Tables: {
+      batches: {
+        Row: {
+          additional_details: string | null
+          batch_id: string
+          blockchain_tx: string | null
+          certificates: Json | null
+          created_at: string
+          crop_type: string
+          farm_location: string
+          farmer_id: string
+          harvest_date: string
+          id: string
+          quantity: number
+          unit: string
+          updated_at: string
+          variety: string
+        }
+        Insert: {
+          additional_details?: string | null
+          batch_id: string
+          blockchain_tx?: string | null
+          certificates?: Json | null
+          created_at?: string
+          crop_type: string
+          farm_location: string
+          farmer_id: string
+          harvest_date: string
+          id?: string
+          quantity: number
+          unit: string
+          updated_at?: string
+          variety: string
+        }
+        Update: {
+          additional_details?: string | null
+          batch_id?: string
+          blockchain_tx?: string | null
+          certificates?: Json | null
+          created_at?: string
+          crop_type?: string
+          farm_location?: string
+          farmer_id?: string
+          harvest_date?: string
+          id?: string
+          quantity?: number
+          unit?: string
+          updated_at?: string
+          variety?: string
+        }
+        Relationships: []
+      }
       profiles: {
         Row: {
           avatar_url: string | null
